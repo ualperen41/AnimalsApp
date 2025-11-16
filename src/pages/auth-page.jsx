@@ -7,17 +7,18 @@ const AuthPage = () => {
   const [isSignUp, setIsSignUp] = useState(false);
   return (
     <div className="min-h-screen flex flex-col md:flex-row bg-[#27277d]">
-      <div className="md:w-1/2 w-full ">
+      {/* Fotoğraf kısmı */}
+      <div className="md:w-1/2 w-full">
         <MainPhoto />
       </div>
 
-      {/* Ekranın sol tarafı */}
+      {/* Form kısmı */}
       <div className="md:w-1/2 w-full flex flex-col justify-center items-center p-8">
         {isSignUp ? <SignUp /> : <SignIn />}
-        {/* geçiş butonu */}
+
         <button
           onClick={() => setIsSignUp(!isSignUp)}
-          className="mt-6 text-sm text-white"
+          className="text-white mt-6"
         >
           {isSignUp ? (
             <>
@@ -28,7 +29,7 @@ const AuthPage = () => {
             </>
           ) : (
             <>
-              No account yet?
+              No Account yet?
               <span className="underline cursor-pointer text-pink-400 hover:text-pink-600">
                 Create Account
               </span>
