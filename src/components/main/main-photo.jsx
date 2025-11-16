@@ -1,6 +1,6 @@
 const MainPhoto = () => {
   return (
-    <div className="relative w-full h-screen max-h-screen  overflow-hidden">
+    <div className="relative w-full h-screen max-h-screen overflow-hidden">
       <img
         src="public/dog.jpg"
         alt="Dog"
