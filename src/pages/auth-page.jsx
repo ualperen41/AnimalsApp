@@ -8,7 +8,7 @@ const AuthPage = () => {
   return (
     <div className="min-h-screen flex flex-col md:flex-row bg-[#27277d]">
       {/* Fotoğraf kısmı */}
-      <div className="md:w-1/2 w-full">
+      <div className="md:w-1/2 w-full ">
         <MainPhoto />
       </div>
 
