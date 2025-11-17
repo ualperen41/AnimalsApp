@@ -1,16 +1,27 @@
-# React + Vite
+🐾 Find Your Pet / Evcil Hayvanını Bul
+💡 Proje Hakkında
+Bu proje, bir evcil hayvan sahiplendirme veya kayıp/buluntu ilan platformunun ön yüzünü (frontend) temsil etmektedir. Kullanıcıların kolayca evcil hayvan ilanlarını görebileceği, arayabileceği ve yönetebileceği modern bir arayüz sunar.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Ekran Görüntüsü
 
-Currently, two official plugins are available:
+![](./animalsApp.gif)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Özellikler
+İlan Görüntüleme: Mevcut evcil hayvan ilanlarını (kedi, köpek, kuş vb.) listeler.
 
-## React Compiler
+İlan Detayları: İlanlarda hayvanın adı, türü, şehri ve durumu (örneğin, sahiplenilmeyi bekliyor) gibi temel bilgiler bulunur.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+İlan Yönetimi: Kullanıcıların kendi ilanlarını düzenleme veya silme (kırmızı çöp kutusu ikonu ile gösterilen) imkanı.
 
-## Expanding the ESLint configuration
+Modern Arayüz: Sade ve kullanıcı dostu bir tasarıma sahiptir.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Duyarlı Tasarım (Responsive Design): Farklı cihaz boyutlarına uyum sağlayacak şekilde geliştirilmiştir (gerekirse ekleyin).
+
+🛠️ Kullanılan Teknolojiler
+Projenin ön yüzü (frontend) aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
+
+React: Kullanıcı arayüzünü oluşturmak için ana JavaScript kütüphanesi.
+
+Vite: Hızlı geliştirme ortamı ve modern build aracı olarak kullanılmıştır.
+
+Tailwind CSS: Hızla özel tasarımlar oluşturmak için yardımcı olan bir CSS framework'ü.
